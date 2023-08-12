@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&display=swap');
+
+.error-box {
+    display: grid;
+    place-items: center;
+    border: 2px solid #ff1b1b;
+    background-color: #ff8989;
+    color: red;
+    border-radius: 1em;
+    min-width: 300px;
+    width: 35%;
+    margin: 20px auto 0;
+    padding: 2em;
+}
+
+.error-box h2 {
+    font-family: 'Dongle', sans-serif;
+    font-weight: 400;
+    font-size: 3.5rem;
+}
+
+.error-box p {
+    font-family: 'Dongle', sans-serif;
+    font-weight: 300;
+    font-size: 1.9rem;
+}
